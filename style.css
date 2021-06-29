@@ -1,0 +1,30 @@
+.bg-color-primary {
+  background-color: #e8e9fc;
+}
+
+.button-color {
+  background-color: #4d90cc;
+  cursor: pointer;
+}
+
+.button-color:hover {
+  text-decoration: none;
+}
+
+canvas {
+  object-fit: contain;
+  border: 20px solid #000;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: #fff;
+}
+
+input {
+  width: 50%;
+  box-shadow: 3px 10px 23px 0 rgb(0 0 0 / 75%);
+  border-radius: 5px;
+  height: 53px;
+  font-size: 2rem;
+}

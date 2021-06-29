@@ -1,0 +1,116 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Run Man</title>
+  </head>
+  <body class="bg-color-primary">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-12">
+          <img src="./assets/logo_transparent.png" alt="Game logo" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="row" id="newUserContainer">
+        <div class="col-12">
+          <form id="form">
+            <div class="form-group">
+              <label class="font-weight-bold" for="name">Username:</label>
+              <input type="text" class="form-control" placeholder="eg. dave" id="name">
+            </div>
+            <button class="rounded button-color font-weight-bold text-white" id="createUser">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-12 mb-5 font-weight-bold d-none" id="welcomeUser"></div>
+      </div>
+
+      <div class="row text-center mb-2">
+        <div class="col-12">
+          <div class="spinner-border d-none" id="spinner"></div>
+        </div>
+      </div>
+
+      <div class="alert alert-danger font-weight-bold d-none" role="alert" id="alert">
+      </div>
+
+      <div class="row text-center mb-5">
+        <div class="col-12">
+          <a id="back" class="d-none rounded pl-5 pr-5 pt-3 pb-3 font-weight-bold text-white button-color">
+            Back
+          </a>
+        </div>
+      </div>
+
+      <div class="row text-center">
+        <div class="col-12 mb-5 font-weight-bold d-none" id="result"></div>
+      </div>
+
+      <div class="row text-center mt-5 d-none" id="buttonActions">
+        <div class="col-12 col-md-6 text-right">
+          <a id="start" class="rounded pl-5 pr-5 pt-3 pb-3 font-weight-bold text-white button-color">
+            Start
+          </a>
+        </div>
+        <div class="col-12 col-md-6 text-left">
+          <a id="leaderBoard" class="rounded pl-5 pr-5 pt-3 pb-3 font-weight-bold text-white button-color">
+            Leaderboard
+          </a>
+        </div>
+      </div>
+
+      <div id="gameButtons" class="d-none">
+        <div class="row d-flex flex-wrap justify-content-center mt-3">
+          <a data-toggle="modal" data-target="#instructionsModal" class="m-2 rounded pl-5 pr-5 pt-3 pb-3 font-weight-bold text-white button-color">
+            How to play
+          </a>
+          <a id="menu" class="m-2 rounded pl-5 pr-5 pt-3 pb-3 font-weight-bold text-white button-color">
+            Menu
+          </a>
+          <a id="exit" class="m-2 rounded pl-5 pr-5 pt-3 pb-3 font-weight-bold text-white bg-danger button-color">
+            Exit
+          </a>
+        </div>
+      </div>
+
+      <div class="row d-none" id="playersList">
+        <div class="col-12">
+          <ul class="list-group" id="players">
+          </ul>
+      </div>
+      </div>
+    </div>
+    <div id="gameContainer" class="d-none"></div>
+
+
+
+
+    <!-- The Modal -->
+    <div class="modal" id="instructionsModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">How to play</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            Press "SPACE" to start the game and jump over obstacles
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <script src="app.bundle.js"></script>
+  </body>
+</html>

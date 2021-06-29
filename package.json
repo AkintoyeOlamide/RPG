@@ -1,27 +1,45 @@
 {
-  "name": "rpg",
+  "name": "rpg-game",
   "version": "1.0.0",
-  "description": "A JS based game built with phaser 3",
+  "description": "",
   "main": "index.js",
+  "jest": {
+    "automock": false,
+    "setupFiles": [
+      "jest-localstorage-mock"
+    ]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack serve --mode development --open"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AkintoyeOlamide/RPG.git"
+    "start:dev": "webpack serve",
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AkintoyeOlamide/RPG/issues"
-  },
-  "homepage": "https://github.com/AkintoyeOlamide/RPG#readme",
   "devDependencies": {
-    "webpack": "^5.40.0",
-    "webpack-cli": "^4.7.2",
+    "@babel/core": "^7.12.17",
+    "@babel/preset-env": "^7.12.17",
+    "babel-loader": "^8.2.2",
+    "babel-polyfill": "^6.26.0",
+    "copy-webpack-plugin": "^7.0.0",
+    "css-loader": "^5.0.2",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "jest": "^26.6.3",
+    "jest-fetch-mock": "^3.0.3",
+    "jest-localstorage-mock": "^2.4.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.23.0",
+    "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "jquery": "^3.5.1",
+    "phaser": "^3.52.0",
+    "popper.js": "^1.16.1",
+    "regenerator-runtime": "^0.13.7"
   }
 }
