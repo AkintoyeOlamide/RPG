@@ -126,12 +126,12 @@ export default class PreloaderScene extends Phaser.Scene {
     //   frameHeight: 77
     // });
 
-    this.load.image('obsticle-1', 'assets/cactuses_small_1.png');
-    this.load.image('obsticle-2', 'assets/cactuses_small_2.png');
-    this.load.image('obsticle-3', 'assets/cactuses_small_3.png');
-    this.load.image('obsticle-4', 'assets/cactuses_big_1.png');
-    this.load.image('obsticle-5', 'assets/cactuses_big_2.png');
-    this.load.image('obsticle-6', 'assets/cactuses_big_3.png');
+    this.load.image('obsticle-1', 'assets/spike1.png');
+    this.load.image('obsticle-2', 'assets/spike2.png');
+    this.load.image('obsticle-3', 'assets/spike3.png');
+    this.load.image('obsticle-4', 'assets/spike4.png');
+    this.load.image('obsticle-5', 'assets/spike5.png');
+    this.load.image('obsticle-6', 'assets/spike6.png');
   }
 
   ready() {
