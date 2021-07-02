@@ -1,4 +1,4 @@
-# Todo-List
+# RPG
 In this project, we built a turn-based RPG game using Phaser and JavaScript.
 
 ## Project screenshot
@@ -30,7 +30,7 @@ Our project can be found at https://github.com/Akintoyeolamide/RPG
 
 ## Live Demo
 
-You can find the demo [here]('https://rawcdn.githack.com/AkintoyeOlamide/RPG/eb897aa6b625819c932c833a74b5edbbb42a3f9b/index.html')
+You can find the demo [here]("https://rawcdn.githack.com/AkintoyeOlamide/RPG/eb897aa6b625819c932c833a74b5edbbb42a3f9b/index.html")
 
 
 ## To run the project in local

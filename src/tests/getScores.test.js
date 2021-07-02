@@ -1,4 +1,3 @@
-// import {jest} from '@jest/globals'
 import 'regenerator-runtime/runtime';
 import fetch from 'jest-fetch-mock';
 import getScores from '../components/getScores';

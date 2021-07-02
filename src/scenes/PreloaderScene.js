@@ -13,7 +13,6 @@ export default class PreloaderScene extends Phaser.Scene {
   }
 
   preload() {
-    // add logo image
     this.add.image(400, 200, 'logo');
 
     // display progress bar
@@ -115,16 +114,6 @@ export default class PreloaderScene extends Phaser.Scene {
     this.load.image('enemy-fly-8', './assets/bird/frame-8.png');
 
     this.load.image('enemy-bird', './assets/bird.png');
-
-    // this.load.spritesheet('man', './assets/man-run.png', {
-    //   frameWidth: 96,
-    //   frameHeight: 129
-    // });
-
-    // this.load.spritesheet('enemy-bird', './assets/enemy-bird.png', {
-    //   frameWidth: 92,
-    //   frameHeight: 77
-    // });
 
     this.load.image('obsticle-1', 'assets/spike1.png');
     this.load.image('obsticle-2', 'assets/spike2.png');
