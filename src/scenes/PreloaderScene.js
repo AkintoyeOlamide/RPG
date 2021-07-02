@@ -1,4 +1,4 @@
-/* global Phaser */
+
 /* eslint radix: 0 */
 
 import 'phaser';
