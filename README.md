@@ -2,7 +2,7 @@
 In this project, we built a turn-based RPG game using Phaser and JavaScript.
 
 ## screenshot
-![screenshot](./screenshot.png)
+![screenshot](./Screenshot.png)
 
 ## 🔨 Built-in
 
